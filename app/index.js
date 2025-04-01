@@ -67,3 +67,22 @@ export default function Home() {
     </div>
   );
 }
+<section className="mt-12 bg-white p-6 shadow-md rounded-lg">
+  <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
+    What Our Students Say
+  </h2>
+  <div className="flex flex-col md:flex-row justify-around">
+    <div className="max-w-sm p-4">
+      <p className="text-gray-600">
+        "Thanks to SÒYÈT AKADEMI, I learned how to manage my money and invest wisely!"
+      </p>
+      <p className="font-bold mt-2">— Jean Baptiste</p>
+    </div>
+    <div className="max-w-sm p-4">
+      <p className="text-gray-600">
+        "This platform gave me the tools to secure my financial future!"
+      </p>
+      <p className="font-bold mt-2">— Marie Claire</p>
+    </div>
+  </div>
+</section>
